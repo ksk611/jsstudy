@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <meta charset="UTF-8">
+    <input type="text" id="txtSM" value="슬미">
+    <script>
+     /*    var txtSM = document.querySelector("#txtSM");
+        txtSM.value = "용환";  */
+
+        
+        
+    /*     원시타입 복사
+        var sm = "슬미";
+        alert(typeof(sm));
+        var yh = sm; // 여기서 복사가 이루어져서 sm 과 yh는 별개임
+        yh = "안용환";
+        alert(sm);  */
+
+        var sm = {
+            name : "난 슬미"
+
+        } // new Object()
+        alert(typeof(sm));
+        var yh = sm; // 복사가 아닌 참조가 이뤄짐 오른 쪽이 객체인경우(reference- 별명)
+        yh.name = "안용환";
+
+        console.log("sm", sm);
+
+    </script>
+

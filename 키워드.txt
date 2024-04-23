@@ -1,0 +1,5 @@
+(데이터변수) 타입
+원시타입(primitive) vs 객체(object)
+number,string , boolean vs [],{}
+동작이 다름!(엄청나게 중요)
+복사(copy) vs 참조(reference- 별명)
